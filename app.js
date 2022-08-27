@@ -91,9 +91,17 @@ function addNewCard() {
 
 }
 function resetValues() {
+	// reset card content values
 	cardOwner.textContent = 'Jane Appleseed';
 	cardNumber.textContent = '0000 0000 0000 0000';
 	cardMonth.textContent = '00';
 	cardYear.textContent = '00';
 	cardCvc.textContent = '000';
+
+	//reset input values
+	cardOwnerInput.value = '';
+	cardNumberInput.value = '';
+	cardMonthInput.value = '';
+	cardYearInput.value = '';
+	cardCvcInput.value = '';
 }
